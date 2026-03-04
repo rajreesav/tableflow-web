@@ -462,8 +462,8 @@ const PhoneFrame = ({ children }) => {
   );
 };
 
-export default function TableFlowApp() {
-  const [mode, setMode] = useState(null);
+export default function TableFlowApp({ initialMode = null, onBack = null }) {
+  const [mode, setMode] = useState(initialMode);
   const [activeScreen, setActiveScreen] = useState(0);
 
   const currentScreens = mode === 'guest' ? GUEST_SCREENS : mode === 'owner' ? OWNER_SCREENS : [];
@@ -516,7 +516,7 @@ export default function TableFlowApp() {
               {m==='guest'?'👤 Guest':'👨‍💼 Owner'}
             </div>
           ))}
-          <div onClick={()=>switchMode(null)} style={{ padding:"6px 12px", borderRadius:10, cursor:"pointer", background:"rgba(255,255,255,.05)", color:"rgba(255,255,255,.4)", fontSize:12 }}>✕</div>
+          <div onClick={()=>{ if(onBack) onBack(); else switchMode(null); }} style={{ padding:"6px 12px", borderRadius:10, cursor:"pointer", background:"rgba(255,255,255,.05)", color:"rgba(255,255,255,.4)", fontSize:12 }}>✕ Back</div>
         </div>
       </div>
 
