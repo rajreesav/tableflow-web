@@ -17,7 +17,7 @@ document.head.appendChild(_style);
 const C = {
   bg:"#F8F5F0", card:"#FFFFFF", sage:"#84A98C", sageDark:"#6F8F7C",
   orange:"#D9480F", charcoal:"#2F3E46", sageTint:"#E8F0EA",
-  border:"#E8E4DE", gray:"#9BA8AF", navyBg:"#1A1E21",
+  border:"#E8E4DE", gray:"#657178", navyBg:"#1A1E21",
 };
 
 const IMG = {
