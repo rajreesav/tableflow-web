@@ -63,7 +63,7 @@ export default function ROICalculator({ onBack }) {
   }
 
   return (
-    <div style={{ background:"#080808", minHeight:"100vh", color:"#fff", fontFamily:"'Barlow',sans-serif", overflowX:"hidden" }}>
+    <div style={{ background:"#080808", minHeight:"100vh", color:"#fff", fontFamily:"'Barlow',sans-serif", overflowX:"hidden", overflowY:"auto", paddingBottom:80 }}>
 
       {/* ── NAV ── */}
       <nav style={{ position:"sticky", top:0, zIndex:100, display:"flex", alignItems:"center", justifyContent:"space-between", padding:"0 48px", height:60, background:"rgba(8,8,8,0.95)", backdropFilter:"blur(20px)", borderBottom:"1px solid rgba(255,255,255,0.06)" }}>

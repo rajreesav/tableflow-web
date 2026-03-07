@@ -8,11 +8,13 @@ export default function App() {
   const [view, setView] = useState("landing");
 
   useEffect(() => {
-    if (view === "landing") {
-      document.body.classList.remove("app-mode");
-      window.scrollTo(0, 0);
-    } else {
+    window.scrollTo(0, 0);
+    if (view === "guest" || view === "owner") {
       document.body.classList.add("app-mode");
+    } else {
+      document.body.classList.remove("app-mode");
+      document.body.style.overflow = "";
+      document.documentElement.style.overflow = "";
     }
   }, [view]);
 
