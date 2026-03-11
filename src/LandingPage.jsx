@@ -115,7 +115,7 @@ const Ticker = () => {
 /* ── FLOATING CTA ─────────────────────────────────────── */
 const FloatingCTA = () => (
   <div style={{ position:"fixed",bottom:24,left:"50%",transform:"translateX(-50%)",display:"flex",gap:8,alignItems:"center",background:"rgba(12,12,12,0.94)",backdropFilter:"blur(20px)",border:"1px solid rgba(255,255,255,0.08)",borderRadius:50,padding:"8px 12px",boxShadow:"0 8px 40px rgba(0,0,0,0.6)",zIndex:1000 }}>
-    <a href="https://calendly.com/reesavraj7761/30min" target="_blank" rel="noreferrer"
+    <a href="https://calendar.app.google/onNjzyBV1i8SKujv7" target="_blank" rel="noreferrer"
       style={{ display:"flex",alignItems:"center",gap:7,background:B,color:"#fff",padding:"9px 18px",borderRadius:40,fontSize:13,fontWeight:700,textDecoration:"none",whiteSpace:"nowrap",animation:"glow 2s infinite" }}>
       📅 Book Free Call
     </a>
@@ -123,7 +123,7 @@ const FloatingCTA = () => (
       style={{ display:"flex",alignItems:"center",gap:7,background:"#25D366",color:"#fff",padding:"9px 18px",borderRadius:40,fontSize:13,fontWeight:700,textDecoration:"none",whiteSpace:"nowrap" }}>
       💬 WhatsApp
     </a>
-    <a href="mailto:reesavraj7761@gmail.com"
+    <a href="mailto:connect.tableflow@gmail.com"
       style={{ display:"flex",alignItems:"center",gap:7,background:"rgba(255,255,255,0.07)",color:"rgba(255,255,255,0.6)",padding:"9px 18px",borderRadius:40,fontSize:13,fontWeight:700,textDecoration:"none",whiteSpace:"nowrap" }}>
       ✉ Email
     </a>
@@ -155,7 +155,7 @@ const Navbar = ({ onROI }) => {
           💰 ROI Calc
         </button>
       </div>
-      <a href="https://calendly.com/reesavraj7761/30min" target="_blank" rel="noreferrer"
+      <a href="https://calendar.app.google/onNjzyBV1i8SKujv7" target="_blank" rel="noreferrer"
         style={{ background:B,color:"#fff",padding:"9px 22px",borderRadius:8,fontSize:13,fontWeight:700,textDecoration:"none",letterSpacing:0.5 }}>
         Book Strategy Call →
       </a>
@@ -561,7 +561,7 @@ export default function LandingPage({ onGuest, onOwner, onROI }) {
                   </div>
                 ))}
               </div>
-              <a href="https://calendly.com/reesavraj7761/30min" target="_blank" rel="noreferrer"
+              <a href="https://calendar.app.google/onNjzyBV1i8SKujv7" target="_blank" rel="noreferrer"
                 style={{ display:"block",textAlign:"center",padding:"14px",background:highlight?"#fff":"transparent",color:highlight?B:"#fff",border:highlight?"none":"1px solid rgba(255,255,255,0.15)",borderRadius:6,fontSize:13,fontWeight:700,letterSpacing:1,textDecoration:"none" }}>
                 {cta}
               </a>
@@ -578,7 +578,7 @@ export default function LandingPage({ onGuest, onOwner, onROI }) {
               <div style={{ fontSize:13,color:"rgba(255,255,255,0.38)",marginTop:3 }}>Commission + no-show losses your restaurant will never recover.</div>
             </div>
           </div>
-          <a href="https://calendly.com/reesavraj7761/30min" target="_blank" rel="noreferrer"
+          <a href="https://calendar.app.google/onNjzyBV1i8SKujv7" target="_blank" rel="noreferrer"
             style={{ background:ORANGE,color:"#fff",padding:"14px 32px",borderRadius:8,fontSize:14,fontWeight:700,textDecoration:"none",letterSpacing:0.5,whiteSpace:"nowrap",animation:"glowOrange 2.5s infinite" }}>
             Book Free Strategy Call →
           </a>
@@ -598,7 +598,7 @@ export default function LandingPage({ onGuest, onOwner, onROI }) {
             30-minute strategy call. Zero obligation. We show you exactly what your restaurant's branded app would look like and how fast it pays back.
           </p>
           <div className="reveal" style={{ display:"flex",gap:14,justifyContent:"center",flexWrap:"wrap" }}>
-            <a href="https://calendly.com/reesavraj7761/30min" target="_blank" rel="noreferrer"
+            <a href="https://calendar.app.google/onNjzyBV1i8SKujv7" target="_blank" rel="noreferrer"
               style={{ background:B,color:"#fff",padding:"16px 44px",borderRadius:8,fontSize:15,fontWeight:700,textDecoration:"none",letterSpacing:0.5,animation:"glow 2s infinite" }}>
               📅 BOOK FREE STRATEGY CALL →
             </a>
